@@ -1,2 +1,76 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<!-- Задание 6 по УП "Услуги для домашних животных" Чувакина Александра-->
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Главная страница</title>
+<!-- Раздел с настройками расположения картинок и текста под ними на главной странице -->
+          <style>
+              .container {
+                  width: 100%;
+                  display: flex;
+                  flex-direction: column;
+              }
+              .game {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+              }
+              .game img {
+                  width: 800px;
+              }
+              .captions {
+                  display: flex;
+                  justify-content: space-between;
+                  font-size: 24px;
+                  font-weight: bold;
+              }
+
+   img {
+    border: 3px solid #FFB173;
+   }
+   body {
+     background-image: url('fon1.jpg');
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-attachment: fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+   }
+
+          </style>
+  </head>
+    <body bgcolor="Wheat"
+     link="#A64D00" vlink="#008080">
+<!-- Заголовок, включающий в себя фотографии животных для украшения -->
+      <h1 align ="center"><font face = "ARIAL BLACK" size=10 color="SaddleBrown">УСЛУГИ ДЛЯ ДОМАШНИХ ЖИВОТНЫХ</font> <br> <hr color="#008080" size="20px">
+        <IMG SRC="gmail1.png" width="300px"alt="Питомцы" align="center">
+          <IMG SRC="rabbits.jpg" width="430px"alt="Питомцы" align="center">
+            <IMG SRC="cats.jpg" width="300px"alt="Питомцы" align="center">
+              <IMG SRC="petss.jpg" width="360px"alt="Питомцы" align="center">
+                <IMG SRC="hamster.jpg" width="260px"alt="Питомцы" align="center"> <hr color="#008080" size="20px"></h1>
+                  <p align="center"><font face ="TAHOMA" size=6 color="Sienna">Данный сайт предоставляет возможность выбрать различные услуги для ваших любимцев</font></p>
+                  <p align="center"><font face ="TAHOMA" size=5 color="Sienna">Выберите услугу:</p>
+<!-- Вставка 1,2 картинок и текста -->
+                    <div class="game">
+                      <img src="dog.png" alt="Питомцы" align="left">
+                      <img src="game.png" alt="Питомцы" align="right">
+                    </div>
+                    <div class="captions">
+                      <p align="left"><font face ="TAHOMA" size=7 color="Sienna"><a href="gruming.html">Груминг</a></p>
+                        <p align="right"><a href="dressirovka.html">Дрессировка</font></a></p>
+                    </div>
+<!-- Вставка 3,4 картинок и текста -->
+                    <div class="game">
+                      <img src="vet.jpg" alt="Питомцы" align="left">
+                      <img src="gmail.gif" width="90px" alt="Питомцы" align="right">
+                    </div>
+                    <div class="captions">
+                      <p align="left"><font face ="TAHOMA" size=7 color="Sienna"><a href="vetusl.html">Ветеринарные услуги</a></p>
+                        <p align="right"><a href="prismotr.html">Присмотр за питомцами</font></a></p>
+                      </div><br><hr color="#008080" size="20px">
+                      <p align="center"><font size=7 ><a href="obrsv.html">Обратная связь</a></p> 
+                    </body>
+</html>
